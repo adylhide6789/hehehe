@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #7c9382;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 35px;
+    color: #a95b16;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+    font-size: 20px;
+    color: #716335;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: black;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: #716335;
+    background-color: inherit;
+    margin: 0;
+}
+
+.Categories {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.Categories a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.Categories a:hover {
+    background-color: grey;
+}
+
+.dropdown:hover .Categories {
+    display: block;
+}
+
+.login {
+    background: rgb(255, 255, 255);
+    border-radius: 6px;
+    padding: 9px 25px;
+    text-decoration: none;
+    transition: .10s;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    border: 3px solid rgb(4, 40, 87);
+}
+.Reg{
+    font-size: 20px;
+    background: rgb(30, 111, 187);
+    border-radius: 6px;
+    padding: 9px 25px;
+    text-decoration: none;
+    transition: .10s;
+    color: white;
+    border: 5px solid rgb(48, 167, 210);
+}
+.Reg:hover {
+    background: white;
+    border: 1px solid rgb(33, 38, 175);
+    color:black;
+}
+.login:hover {
+    background: rgb(30, 111, 187);
+    border: 1px solid rgb(33, 38, 175);
+    color:black;
+}
+.container {
+    text-align: center;
+}
+#random-photo {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+#new-photo-btn {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+#new-photo-btn:hover {
+    background-color: #45a049;
+}
+
+aside {
+}
+
+.ads {
+}
